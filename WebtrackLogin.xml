@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name ="Webtrack_cases_execution">
+
+<test name ="Login_Cases_Execution">
+
+
+
+<Parameter name ="Username" value="Nayana"></Parameter>
+
+
+<classes>
+<class name= "WebTrackCases.UserLogin"></class>
+</classes>
+
+</test>
+</suite>
